@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>INT: Unit 4 Quiz Project</title>
+        <title> </title>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <script defer src="script.js"></script>
     </head>
     <body>
+
         <div class="title">
-            <h1>Your Quiz Title Here!</h1>
+            <h1>What kind of OS (operating system) are YOU!</h1>
         </div>
         <div class="questions">
-            <h4>User Question #1</h4>
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-06/24/16/asset/815a5287257c/anigif_sub-buzz-4360-1624553394-78_preview.gif?output-quality=auto&output-format=auto&downsize=360:*">
-            <h4>User Question #2</h4>
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-11/19/17/asset/buzzfeed-prod-web-05/anigif_sub-buzz-18467-1542667455-1.gif">
-        </div>
-        <div class="result">
-            This is where the user will see their quiz result.
+                <p>question 1 of 3</p>
+            <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/08/Mr-Krabs-In-SpongeBob-Squarepants.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <div class="question1-div" id="question1-div">
+                <h4>How much would you charge people if they want your help?</h4>
+                <button class="1-button"onClick="scrollToNext('question2-div')">free. I dont charge for favors</button>
+                <button class="2-button"onClick="scrollToNext('question2-div')"> $100 a year </button>
+            </div>
+            <img src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/2800/Mike-Ross.Suits.webp">
+            <div class="question2-div" id="question2-div">
+                <p> question 2 of 3 </p>
+                <h4>How good is your memories?</h4>
+                <button class="1-button"onClick="scrollToNext('question3-div')">horrible. I have the memory of a goldfish</button>
+                <button class="2-button"onClick="scrollToNext('question3-div')">I love memorizing things. I can probably memorize the first 100 digits of pi ! </button>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxP0bZ0zH2WV4MyGXD4FSpx0LQ1cYGk7xQKQ6MFIibjMXMjLHVPkJ2ZrxrGf3-AQq2gomg21oKxr2kvmiolONJAq5V8kru59U106wKnYfv2nswgHWA_iGKjuYOwBxAMJIl1gD87R-bGLEm/s1600/S02-E01_38-51.jpg">
+            <div class="question3-div" id="question3-div">
+                <p> question 3 of 3 </p>
+                <h4>Do you enjoy making other people's life easier?</h4>
+                <button class="1-button"onClick="scrollToNext('result')">No. I want everyone's life to be miserable</button>
+                <button class="2-button"onClick="scrollToNext('result')">I love helping people. I put other people's struggle before mine. </button>
+            </div>
+
+        <div class="result" id="result">
+            <button id = "Button" > CLICK ME !!!!!!!! Show me the results </button>
         </div>
     </body>
 </html>
+

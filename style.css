@@ -1,4 +1,7 @@
 /* General body styling */
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #f4f4f4;
@@ -20,6 +23,8 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 30px;
 }
 
 .questions h4 {
@@ -41,4 +46,22 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+    /* display: none; */
+}
+
+button {
+    width: 1500px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: rgba(87, 39, 39, 0.417);
+    color: white
+
+}
+
+button:hover {
+    opacity: 0.7; 
 }
